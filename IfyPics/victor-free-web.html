@@ -1,0 +1,674 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>
+      Victor-free-website
+    </title>
+
+    <style>
+
+    .General-div{
+        display: grid;
+        grid-template-columns: 1fr 150px 150px;
+        padding-top: 8px;
+    }
+
+    .Left{
+      display: grid;
+       grid-template-columns: 40px 1fr;
+    }
+
+    .Middle{
+      display: grid;
+      grid-template-columns: 40px 1fr;
+    }
+
+    .Right{
+      display: grid;
+      grid-template-columns: 40px 1fr;
+    }
+
+    .Ify{
+      font-weight: bold;
+      width: 170px;
+      margin-right: 130x;
+      height: 40px;
+      padding-top: 3px;
+      color: rgb(18, 114, 18);
+    }
+
+    .Get{
+      font-weight: bold;
+      width: 110px;
+      padding-top: 3px;
+      color: rgb(18, 114, 18);
+    }
+
+    .Call{
+      font-weight: bold;
+      width: 170px;
+      padding-top: 3px;
+      color: rgb(18, 114, 18);
+    }
+
+    .Img1-box{
+      width: 25px;
+
+    }
+
+    .Img1{
+      width: 20px;
+    }
+
+    .Site-title{
+      color: rgb(45, 112, 45);
+      text-align: center;
+      font-size: 50px;
+      font-weight: bold;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      display: grid;
+      grid-template-columns: 1fr;
+      margin-bottom: 0px;
+    }
+
+    .Site-title-main{
+      display: grid;
+      grid-template-columns: 1fr;
+    }
+
+    .Front-shop-pics{
+      display: grid;
+      grid-template-columns: 1fr;
+    }
+
+    .P{
+      text-align: center;
+    }
+
+    .Open-time1{
+      font-size: large;
+      display: grid;
+      grid-template-columns: 1fr;
+      margin-bottom: 0px;
+    }
+
+    .Open-time2{
+      font-size: large;
+      display: grid;
+      grid-template-columns: 1fr;
+      margin-top: 0px;
+    }
+
+    .Open-time-div{
+      text-align: center;
+      display: grid;
+      grid-template-columns: 1fr;
+
+    }
+
+    .Directions{
+      text-align: center;
+      background-color: rgb(45, 148, 45);
+      color: white;
+      padding-top: 20px;
+      padding-bottom: 20px;
+      padding-left: 10px;
+      padding-right: 10px;
+      width: 100%;
+      display: block;
+    }
+
+    .Direction-div{
+
+    }
+
+    .Front-shop_pics{
+      display: grid;
+      grid-template-columns: 1fr;
+    }
+
+    .Testimonials{
+      text-align: center;
+      font-size: larger;
+      font-weight: bold;
+      color: rgb(18, 114, 18);
+    }
+
+    .Test1{
+      margin-left: 20px;
+    }
+
+    .Test-all{
+      display: grid;
+      grid-template-columns: 250px 250px 1fr;
+      column-gap: 70px;
+      margin: 20px;
+    }
+
+    .Testimonials1{
+      font-size: large;
+      font-weight: bold;
+    }
+
+    .Testimonials2{
+      color: rgb(18, 114, 18);
+    }
+
+    .Write{
+      border-bottom: 1px solid;
+      display: inline-block;
+      margin-right: 10px;
+      padding-bottom: 15px;
+      color: rgb(18, 114, 18);
+      font-weight: bold;
+      cursor: pointer;
+    }
+
+    .Read{
+      border-bottom: 1px solid;
+      display: inline-block;
+      margin-left: 10px;
+      padding-bottom: 15px;
+      color: rgb(18, 114, 18);
+      font-weight: bold;
+      cursor: pointer;
+    }
+
+    .Write-read{
+      text-align: center;
+    }
+
+    .Welcome{
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      text-align: center;
+      font-weight: 600;
+      border-top: 2px soli;
+      background-color: rgb(233, 229, 229);
+      padding-top: 40px;
+      padding-bottom: 40px;
+    }
+
+    .Gallery{
+      text-align: center;
+    }
+
+    .Photos{
+      display: grid;
+      grid-template-columns: 1fr 1fr 400px ;
+      row-gap: 45px;
+      margin: 30px;
+    }
+
+    .Image-div1{
+      width: 400px;
+    }
+
+    .Image-div2{
+      width: 400px;
+    }
+
+    .Image-div3{
+      width: 400px;
+    }
+
+    .Image-div4{
+      width: 400px;
+    }
+
+    .Image-div5{
+      width: 400px;
+    }
+
+    .Image-div6{
+      width: 400px;
+    }
+
+    .Image-div7{
+      width: 400px;
+    }
+
+    .Image-div8{
+      width: 400px;
+    }
+
+    .Image-div9{
+      width: 400px;
+    }
+
+    .CAD{
+      margin-left:30px ;
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      margin-bottom: 300px;
+    }
+
+    .Buttons{
+      background-color: rgb(25, 75, 25);
+      font-weight: bolder;
+      border: none;
+      margin-bottom: 20px;
+      padding: 15px;
+    }
+
+    .Days-div{
+      width: 40p
+    }
+
+    .Days{
+      display: flex;
+
+    }
+
+    .Time-div{
+      width: 120px;
+    }
+    
+    .Time{
+      width: 100px;
+      display: inline-block;
+
+    }
+
+    .Last-div{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: start;
+    }
+    </style>
+  </head>
+
+
+  <body>
+
+
+    <div class="General-div">
+      <div class="Left">
+        <div class="Img1-box">
+          <img class="Img1" src="icons/images.png">
+        </div>
+        <div class="Ify">
+          Ify Best Exclusive Wears
+        </div>
+      </div>
+
+      <div class="Middle">
+        <div class="Img1-box">
+          <img class="Img1" src="icons/436-4367194_notification-icon-png-free-clipart-png-download-transparent.png">
+        </div>
+        <div class="Get">
+          <a ref="https://goo.gl/maps/cSQaCJXk6WEcGmGS8" target="_blank">
+            Get Directions
+          </a>
+        </div>
+      </div>
+
+      <div class="Right">
+        <div class="Img1-box">
+          <img class="Img1" src="icons/436-4367194_notification-icon-png-free-clipart-png-download-transparent.png">
+        </div>
+        <div class="Call">
+          <a>
+            Call Now
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div>
+      <hr>
+    </div>
+
+    <div>
+      <div class="Site-title-main">
+        <p class="Site-title">
+          Ify Best Exclusive Wears
+        </p>
+      </div>
+  
+      <div class="Open-time-div">
+          <p class="Open-time1">
+            Boutique in Enugu
+          </p>
+          <p class="Open-time2">
+          Open today until 18:00
+          </p>
+      </div>
+  
+      <div class="Direction-div">
+        <a href="https://goo.gl/maps/cSQaCJXk6WEcGmGS8" target="_blank" class="Directions">
+          GET DIRECTIONS
+        </a>
+      </div>
+    </div>
+
+    <div class="Front-shop_pics">
+      <p class="P"><img src="2022-11-16_003.jpg"></p>
+    </div>
+
+    <div>
+      <hr>
+    </div>
+
+    <div >
+      <p class="Testimonials">TESTIMONIALS</p>
+    </div>
+
+    <div>
+      <hr>
+    </div>
+
+
+    <div class="Test-all">
+      <div class="Test1">
+        <div>
+          <p>
+            <span>&#11088; &#11088; &#11088; &#11088; &#11088;</span> 2 months ago
+          </p>
+          <p class="Testimonials1">
+            Wonderful The wears is so unique and is sold at affordable prices. I was attended to very well and I'm happy with their customer service kudos to Ifybest Exclusive Wears.
+            </p>
+        </div>
+        <div>
+          <p class="Testimonials2">
+            - Ekwunife C
+          </p>
+
+          <span class="DPvwYc xPRkMe" aria-hidden="true"></span>
+          <span class="DPvwYc xPRkMe" aria-hidden="true"></span>
+        </div>
+    </div>
+
+
+    <div class="Test1">
+        <div>
+          <p>
+            <span>&#11088; &#11088; &#11088; &#11088; &#11088;</span> 2 months ago
+          </p>
+           <p class="Testimonials1">
+            Wow, Ifybest Exclusive Wears is the sure plug.
+            </p>
+        </div>
+        <div>
+          <p class="Testimonials2">
+            - Afoka I
+          </p>
+
+          <span class="DPvwYc xPRkMe" aria-hidden="true"></span>
+          <span class="DPvwYc xPRkMe" aria-hidden="true"></span>
+        </div>
+    </div>
+    </div>
+
+    <div class="Write-read">
+
+      <a class="Write" ref="https://search.google.com/local/writereview?placeid=ChIJqS9G4kyjRBARKsLmKNKEFb8">
+        WRITE A REVIEW 
+      </a>
+
+      <a class="Read">
+        READ MORE
+      </a>
+    </div>
+
+    <div>
+      <p class="Welcome">
+        WELCOME TO IFY BEST EXCLUSIVE WEAR
+      </p>
+    </div>
+
+    <div>
+      <hr>
+    </div>
+
+    <div>
+      <h2 class="Gallery">
+        GALLERY
+      </h2>
+    </div>
+
+    <div>
+      <hr>
+    </div>
+
+    <div class="Photos">
+      <div class="Image-div1">
+        <img src="IMG_6681.jpg" style="width: 350px;">
+      </div>
+
+      <div class="Image-div2">
+        <img src="IMG_6682_002.jpg" style="width: 350px;">
+      </div>
+
+      <div class="Image-div3">
+        <img src="IMG_6683.jpg" style="width: 350px;">
+      </div>
+
+      <div class="Image-div4">
+        <img src="IMG_6684_002.jpg" style="width: 350px;">
+      </div>
+
+      <div class="Image-div5">
+        <img src="IMG_6685.jpg" style="width: 350px;">
+      </div>
+
+      <div class="Image-div6">
+        <img src="IMG_6686.jpg" style="width: 350px;">
+      </div>
+
+      <div class="Image-div7">
+        <img src="IMG_6687.jpg" style="width: 350px;">
+      </div>
+
+      <div class="Image-div8">
+        <img src="IMG_6688_002.jpg" style="width: 350px;">
+      </div>
+
+      <div class="Image-div9">
+        <img src="IMG_6689.jpg" style="width: 350px;">
+      </div>
+    </div>
+
+    <div>
+      <hr>
+    </div>
+
+    <div class="CAD" style="padding-bottom: 50px;">
+      <div>
+        <div>
+          <h2>Contact</h2>
+        </div>
+        <div>
+          <button class="Buttons">CALL NOW</button>
+        </div>
+        <div>
+          <a>0810 020 1257</a>
+        </div>
+        <div>
+          <a href="">0803 257 5643
+          </a>
+        </div>
+      </div>
+  
+      <div>
+        <div>
+          <h2>Address</h2>
+        </div>
+        <div>
+          <button class="Buttons">GET DIRECTIONS</button>
+        </div>
+
+        <div style="
+        display: flex;
+        flex-direction: column;
+        flex: 1;
+        ">
+          <div>
+            Oceanic Avenue Nkpokiti
+          </div>
+
+          <div>
+            No. 6 Ogui New Layout
+          </div>
+
+          <div>
+            401105
+          </div>
+
+          <div>
+            Enugu
+          </div>
+
+          <div>
+            Nigeria
+          </div>
+        </div>
+      </div>
+  
+      <div>
+        <div>
+          <h2>Days Of Work</h2>
+        </div>
+        <div>
+          <button class="Buttons">OPENING HOURS</button>
+        </div>
+
+        <div>
+          <div style="
+            display: flex;
+            flex-direction: row;
+            ">
+            <div style="
+            width: 50px;
+            ">
+              Mon :
+            </div>
+            <div style="
+            width: 120px;
+            ">
+              8:00 am – 6:00 pm
+            </div>
+          </div>
+
+          <div style="
+            display: flex;
+            flex-direction: row;
+            ">
+            <div style="
+            width: 50px;
+            ">
+              Tue :
+            </div>
+            <div style="
+            width: 120px;
+            ">
+              8:00 am – 6:00 pm
+            </div>
+          </div>
+
+          <div style="
+            display: flex;
+            flex-direction: row;
+            ">
+            <div style="
+            width: 50px;
+            ">
+              Wed :
+            </div>
+            <div style="
+            width: 120px;
+            ">
+              8:00 am – 6:00 pm
+            </div>
+          </div>
+
+          <div style="
+            display: flex;
+            flex-direction: row;
+            ">
+            <div style="
+            width: 50px;
+            ">
+              Thur :
+            </div>
+            <div style="
+            width: 120px;
+            ">
+              8:00 am – 6:00 pm
+            </div>
+          </div>
+
+          <div style="
+            display: flex;
+            flex-direction: row;
+            ">
+            <div style="
+            width: 50px;
+            ">
+              Fri :
+            </div>
+            <div style="
+            width: 120px;
+            ">
+              8:00 am – 6:00 pm
+            </div>
+          </div>
+
+          <div style="
+            display: flex;
+            flex-direction: row;
+            ">
+            <div style="
+            width: 50px;
+            ">
+              Sat :
+            </div>
+            <div style="
+            width: 120px;
+            ">
+              8:00 am – 6:00 pm
+            </div>
+          </div>
+
+          <div style="
+            display: flex;
+            flex-direction: row;
+            ">
+            <div style="
+            width: 50px;
+            ">
+              Sun :
+            </div>
+            <div style="
+            width: 130px;
+            ">
+              12:00 pm – 6:00 pm
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div>
+      <hr>
+    </div>
+
+    <div class="Last-div">
+      <div>
+        Report abuse
+      </div>
+  
+      <div>
+          @ Header photo by Ify Best Exclusive Wears
+      </div>
+  
+      <div>
+          Powered by VeeTech
+      </div>
+    </div>
+
+    <div>
+      <hr>
+    </div>
+  </body>
+</html>
